@@ -1,6 +1,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
-// The smart speaker apologises, badly, in its own helpful voice.
+// The smart speaker apologises, badly, in its own helpful voice: it fixes the
+// volume and leaves the sarcasm untouched.
 const line = "Sorry, I heard 'turn it down' as 'ruin your evening.' I've adjusted the volume, not the attitude.";
 
 // The gate takes 1 to 140 characters: fail loudly rather than ship an invalid entry.
